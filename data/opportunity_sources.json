@@ -1,0 +1,166 @@
+{
+  "collectors": [
+    {
+      "id": "unesco-jobs",
+      "name": "UNESCO — offres d’emploi et missions",
+      "organization": "UNESCO",
+      "adapter": "sap",
+      "enabled": true,
+      "url": "https://careers.unesco.org/search/?q=education&sortColumn=referencedate&sortDirection=desc",
+      "pages": 4
+    },
+    {
+      "id": "unesco-internships",
+      "name": "UNESCO — stages",
+      "organization": "UNESCO",
+      "adapter": "sap",
+      "enabled": true,
+      "url": "https://careers.unesco.org/go/Internships/783902/",
+      "pages": 1
+    },
+    {
+      "id": "unicef",
+      "name": "UNICEF",
+      "organization": "UNICEF",
+      "adapter": "unicef",
+      "url": "https://jobs.unicef.org/en-us/listing/",
+      "enabled": true
+    },
+    {
+      "id": "euraxess",
+      "name": "EURAXESS",
+      "organization": "EURAXESS",
+      "adapter": "euraxess",
+      "url": "https://euraxess.ec.europa.eu/jobs/search",
+      "enabled": true
+    },
+    {
+      "id": "worcester",
+      "name": "Université de Worcester",
+      "organization": "Université de Worcester",
+      "adapter": "rss",
+      "url": "https://jobs.worcester.ac.uk/RSS/rss.aspx",
+      "enabled": true
+    },
+    {
+      "id": "surrey",
+      "name": "Université de Surrey",
+      "organization": "Université de Surrey",
+      "adapter": "rss",
+      "url": "https://jobs.surrey.ac.uk/RSS/rss.aspx",
+      "enabled": true
+    },
+    {
+      "id": "bath",
+      "name": "Université de Bath",
+      "organization": "Université de Bath",
+      "adapter": "rss",
+      "url": "https://www.bath.ac.uk/jobs/RSS/rss.aspx",
+      "enabled": true
+    },
+    {
+      "id": "southampton",
+      "name": "Université de Southampton",
+      "organization": "Université de Southampton",
+      "adapter": "rss",
+      "url": "https://jobs.soton.ac.uk/RSS/rss.aspx",
+      "enabled": true
+    },
+    {
+      "id": "york",
+      "name": "Université de York",
+      "organization": "Université de York",
+      "adapter": "rss",
+      "url": "https://jobs.york.ac.uk/rss_jobs.rss",
+      "enabled": true
+    },
+    {
+      "id": "kent",
+      "name": "Université du Kent",
+      "organization": "Université du Kent",
+      "adapter": "rss",
+      "url": "https://jobs.kent.ac.uk/RSS/rss.aspx",
+      "enabled": true
+    },
+    {
+      "id": "aston",
+      "name": "Université Aston",
+      "organization": "Université Aston",
+      "adapter": "rss",
+      "enabled": true,
+      "url": "https://jobs.aston.ac.uk/RSS/rss.aspx"
+    }
+  ],
+  "portals": [
+    {
+      "name": "UNESCO",
+      "url": "https://careers.unesco.org/",
+      "focus": "Éducation et coopération",
+      "collected": true
+    },
+    {
+      "name": "UNICEF",
+      "url": "https://jobs.unicef.org/en-us/listing/",
+      "focus": "Éducation, emploi, enseignement supérieur et recherche",
+      "collected": true
+    },
+    {
+      "name": "OIT",
+      "url": "https://jobs.ilo.org/services/rss/job/?locale=en_GB&keywords=(education)",
+      "focus": "Portail à consulter directement (collecte automatique non autorisée)",
+      "collected": false
+    },
+    {
+      "name": "EURAXESS",
+      "url": "https://euraxess.ec.europa.eu/jobs/search",
+      "focus": "Éducation, emploi, enseignement supérieur et recherche",
+      "collected": true
+    },
+    {
+      "name": "Université de Worcester",
+      "url": "https://jobs.worcester.ac.uk/RSS/rss.aspx",
+      "focus": "Éducation, emploi, enseignement supérieur et recherche",
+      "collected": true
+    },
+    {
+      "name": "Université de Surrey",
+      "url": "https://jobs.surrey.ac.uk/RSS/rss.aspx",
+      "focus": "Éducation, emploi, enseignement supérieur et recherche",
+      "collected": true
+    },
+    {
+      "name": "Université de Bath",
+      "url": "https://www.bath.ac.uk/jobs/RSS/rss.aspx",
+      "focus": "Éducation, emploi, enseignement supérieur et recherche",
+      "collected": true
+    },
+    {
+      "name": "Université de Southampton",
+      "url": "https://jobs.soton.ac.uk/RSS/rss.aspx",
+      "focus": "Éducation, emploi, enseignement supérieur et recherche",
+      "collected": true
+    },
+    {
+      "name": "Université de York",
+      "url": "https://jobs.york.ac.uk/rss_jobs.rss",
+      "focus": "Éducation, emploi, enseignement supérieur et recherche",
+      "collected": true
+    },
+    {
+      "name": "Université du Kent",
+      "url": "https://jobs.kent.ac.uk/RSS/rss.aspx",
+      "focus": "Éducation, emploi, enseignement supérieur et recherche",
+      "collected": true
+    },
+    {
+      "name": "Université Aston",
+      "url": "https://jobs.aston.ac.uk/RSS/rss.aspx",
+      "focus": "Enseignement supérieur et recherche",
+      "collected": true
+    }
+  ],
+  "duplicate_job_ids": {
+    "careers.unesco.org:1371750257": "careers.unesco.org:1371750157"
+  },
+  "feed_url": ""
+}
