@@ -7,11 +7,24 @@ class CollectorTests(unittest.TestCase):
   return {'url':url,'source_id':source,'checked_at':checked+'T12:00:00+00:00','deadline':deadline,'title':'Education officer'}
  def test_dedup(self):
   j=self.item();self.assertEqual(len(c.merge([], [j,j], [{'id':'a','ok':True}], '2026-09-22')),1)
- def test_success_removes_withdrawn_offers(self):
-  self.assertEqual(c.merge([self.item()],[],[{'id':'a','ok':True}],'2026-09-22'),[])
- def test_failure_keeps_recent_but_drops_stale_and_expired(self):
+ def test_success_retains_withdrawn_offers(self):
+  rows=c.merge([self.item()],[],[{'id':'a','ok':True}],'2026-09-22')
+  self.assertEqual(rows[0]['status'],'withdrawn')
+ def test_failure_keeps_stale_and_expired_history(self):
   rows=[self.item(),self.item('https://example.org/job/2',checked='2026-09-01'),self.item('https://example.org/job/3',deadline='2026-09-20')]
-  self.assertEqual(len(c.merge(rows,[],[{'id':'a','ok':False}],'2026-09-22')),1)
+  result=c.merge(rows,[],[{'id':'a','ok':False}],'2026-09-22')
+  self.assertEqual(len(result),3)
+  self.assertEqual(result[0]['status'],'expired')
+  self.assertTrue(all(j['status']=='unverified' for j in result[1:]))
+ def test_refresh_updates_without_duplicate_or_changed_history(self):
+  old=self.item(checked='2026-09-01');fresh=self.item(checked='2026-09-22')
+  rows=c.merge([old],[fresh],[{'id':'a','ok':True}],'2026-09-22')
+  self.assertEqual(len(rows),1);self.assertEqual(rows[0]['status'],'active')
+  self.assertEqual(old['checked_at'],'2026-09-01T12:00:00+00:00')
+ def test_parser_retains_expired_offer(self):
+  src=dict(id='test',name='Test',organization='Test',url='https://example.org/')
+  j=c.metadata(src,'Education Officer','https://example.org/offer','2000-01-01','2026-09-22')
+  self.assertIsNotNone(j)
  def test_format_change_is_not_a_success(self):
   with self.assertRaises(ValueError):c.parse_sap('<html>Service unavailable</html>',{},'2026-09-22')
  def test_deadline_is_calendar_valid(self):
