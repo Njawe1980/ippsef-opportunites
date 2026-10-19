@@ -8,8 +8,8 @@ Collecteur autonome sans dépendance payante. Il extrait uniquement les titres, 
 - Runner standard ubuntu-latest, maximum 10 minutes. Aucun runner payant, API payante, modèle IA, cache ou artefact stocké.
 - Les données JSON sont servies depuis le dépôt public. Aucune republication hebdomadaire sur Netlify.
 - Respect de robots.txt et des erreurs d’accès. Aucune authentification sur les sources.
-- Les offres sans échéance explicite ou déjà expirées sont exclues.
-- En cas d’échec d’une source, ses offres précédentes sont conservées au maximum sept jours et seulement jusqu’à leur échéance. Les statuts exposent les échecs.
+- Les offres sans échéance explicite sont exclues. Les offres datées sont conservées même après expiration, pour documenter les métiers recherchés.
+- Les offres précédemment collectées sont conservées. Le statut distingue active, expired, withdrawn et unverified, sans présenter une offre ancienne comme nouvellement vérifiée.
 - Les résultats sont une sélection, et non un inventaire exhaustif. Les candidatures se font sur les sites sources.
 
 ## Vérification locale
