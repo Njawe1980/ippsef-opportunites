@@ -49,8 +49,8 @@ def parse_sap(s,src,seen_at):
    m=re.search(r'<td\b[^>]*class="[^\"]*col'+name+r'\b[^\"]*"[^>]*>(.*?)</td>',row,re.S)
    return plain(m[1]) if m else ''
   deadline=date_value(col('Shifttype'))
-  # Do not infer a deadline from a publication date or publish a stale undated offer.
-  if not deadline or deadline<TODAY:continue
+  # Do not infer a deadline from a publication date; retain dated historical offers.
+  if not deadline:continue
   url=urlsafe(urllib.parse.urljoin(src['url'],html.unescape(html.unescape(a[1]))))
   if urllib.parse.urlsplit(url).hostname!=urllib.parse.urlsplit(src['url']).hostname:continue
   location=col('Location') or 'Lieu à vérifier sur la source'
@@ -65,7 +65,7 @@ def parse_sap(s,src,seen_at):
 
 def metadata(src,title,url,deadline,stamp,location='Lieu à vérifier sur la source',organization=None):
  if not re.search(KEYWORDS+'|\\b(?:lecturer|professor|academic|student|postdoctoral)',norm(title)):return None
- if not deadline or deadline<TODAY:return None
+ if not deadline:return None
  url=urlsafe(urllib.parse.urljoin(src['url'],html.unescape(url)))
  if urllib.parse.urlsplit(url).hostname!=urllib.parse.urlsplit(src['url']).hostname:return None
  category='stage' if re.search(r'\b(intern|internship|trainee|stage)\b',norm(title)) else 'consultance' if re.search('consult|expert',norm(title)) else 'emploi'
@@ -123,14 +123,16 @@ def identity(j):
  return aliases.get(key,key)
 
 def merge(previous,fresh,statuses,today):
- # Replace successful sources in full. On failure keep only recent, non-expired previous items.
- succeeded={s['id'] for s in statuses if s['ok']};out={}
- for j in previous:
-  if j['source_id'] in succeeded:continue
-  age=(dt.date.fromisoformat(today)-dt.date.fromisoformat(j['checked_at'][:10])).days
-  if j.get('deadline','')>=today and age<=7:out[identity(j)]=j
- for j in fresh:
-  if j['deadline']>=today:out[identity(j)]=j
+ # Keep the historical catalogue; expiry is a status, never a deletion rule.
+ succeeded={s['id'] for s in statuses if s['ok']}
+ fresh_keys={identity(j) for j in fresh}
+ out={identity(j):dict(j) for j in previous}
+ for j in fresh:out[identity(j)]=dict(j)
+ for key,j in out.items():
+  if j.get('deadline','')<today:j['status']='expired'
+  elif key in fresh_keys:j['status']='active'
+  elif j['source_id'] in succeeded:j['status']='withdrawn'
+  else:j['status']='unverified'
  return sorted(out.values(),key=lambda j:(j['deadline'],j['title']))
 
 def main():
