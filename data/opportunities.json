@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-09T15:54:31.087571+00:00",
-  "last_success": "2026-11-09T15:54:31.087571+00:00",
+  "generated_at": "2026-11-16T15:29:37.761964+00:00",
+  "last_success": "2026-11-16T15:29:37.761964+00:00",
   "collection_state": "partial",
   "automation_active": true,
   "sources": [
@@ -8,78 +8,78 @@
       "id": "unesco-jobs",
       "name": "UNESCO — offres d’emploi et missions",
       "ok": true,
-      "count": 18,
-      "checked_at": "2026-11-09T15:54:31.087571+00:00"
+      "count": 11,
+      "checked_at": "2026-11-16T15:29:37.761964+00:00"
     },
     {
       "id": "unesco-internships",
       "name": "UNESCO — stages",
       "ok": true,
       "count": 1,
-      "checked_at": "2026-11-09T15:54:31.087571+00:00"
+      "checked_at": "2026-11-16T15:29:37.761964+00:00"
     },
     {
       "id": "unicef",
       "name": "UNICEF",
-      "ok": true,
-      "count": 8,
-      "checked_at": "2026-11-09T15:54:31.087571+00:00"
+      "ok": false,
+      "error": "UNICEF listing format unavailable",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00"
     },
     {
       "id": "euraxess",
       "name": "EURAXESS",
       "ok": true,
       "count": 8,
-      "checked_at": "2026-11-09T15:54:31.087571+00:00"
+      "checked_at": "2026-11-16T15:29:37.761964+00:00"
     },
     {
       "id": "worcester",
       "name": "Université de Worcester",
       "ok": true,
       "count": 0,
-      "checked_at": "2026-11-09T15:54:31.087571+00:00"
+      "checked_at": "2026-11-16T15:29:37.761964+00:00"
     },
     {
       "id": "surrey",
       "name": "Université de Surrey",
       "ok": true,
-      "count": 18,
-      "checked_at": "2026-11-09T15:54:31.087571+00:00"
+      "count": 26,
+      "checked_at": "2026-11-16T15:29:37.761964+00:00"
     },
     {
       "id": "bath",
       "name": "Université de Bath",
       "ok": true,
-      "count": 19,
-      "checked_at": "2026-11-09T15:54:31.087571+00:00"
+      "count": 20,
+      "checked_at": "2026-11-16T15:29:37.761964+00:00"
     },
     {
       "id": "southampton",
       "name": "Université de Southampton",
       "ok": true,
-      "count": 26,
-      "checked_at": "2026-11-09T15:54:31.087571+00:00"
+      "count": 23,
+      "checked_at": "2026-11-16T15:29:37.761964+00:00"
     },
     {
       "id": "york",
       "name": "Université de York",
       "ok": true,
-      "count": 17,
-      "checked_at": "2026-11-09T15:54:31.087571+00:00"
+      "count": 11,
+      "checked_at": "2026-11-16T15:29:37.761964+00:00"
     },
     {
       "id": "kent",
       "name": "Université du Kent",
       "ok": true,
-      "count": 1,
-      "checked_at": "2026-11-09T15:54:31.087571+00:00"
+      "count": 2,
+      "checked_at": "2026-11-16T15:29:37.761964+00:00"
     },
     {
       "id": "aston",
       "name": "Université Aston",
-      "ok": false,
-      "error": "<urlopen error [Errno 104] Connection reset by peer>",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00"
+      "ok": true,
+      "count": 11,
+      "checked_at": "2026-11-16T15:29:37.761964+00:00"
     }
   ],
   "items": [
@@ -96,7 +96,7 @@
       "url": "https://careers.unesco.org/job/Dakar-Consultant-Development-of-a-Guide-for-the-Planning-of-Curriculum-Transformation/1366810057/",
       "source_id": "unesco-jobs",
       "source": "UNESCO — offres d’emploi et missions",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "expired"
     },
@@ -1133,7 +1133,7 @@
       "url": "https://www.bath.ac.uk/jobs/rss/click.aspx?ref=AS14067",
       "source_id": "bath",
       "source": "Université de Bath",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "expired"
     },
@@ -1405,7 +1405,7 @@
       "url": "https://jobs.soton.ac.uk/rss/click.aspx?ref=3546926",
       "source_id": "southampton",
       "source": "Université de Southampton",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "expired"
     },
@@ -1456,7 +1456,7 @@
       "url": "https://jobs.soton.ac.uk/rss/click.aspx?ref=3547226",
       "source_id": "southampton",
       "source": "Université de Southampton",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "expired"
     },
@@ -1473,7 +1473,7 @@
       "url": "https://jobs.soton.ac.uk/rss/click.aspx?ref=3547326",
       "source_id": "southampton",
       "source": "Université de Southampton",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "expired"
     },
@@ -1490,7 +1490,7 @@
       "url": "https://jobs.soton.ac.uk/rss/click.aspx?ref=3547026",
       "source_id": "southampton",
       "source": "Université de Southampton",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "expired"
     },
@@ -1713,7 +1713,7 @@
       "source": "UNESCO — offres d’emploi et missions",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "expired"
     },
     {
       "id": "d843a98ad3a34597",
@@ -1730,7 +1730,7 @@
       "source": "Université de York",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "expired"
     },
     {
       "id": "6c2974f614af045a",
@@ -1747,7 +1747,7 @@
       "source": "UNICEF",
       "checked_at": "2026-11-02T15:28:22.760692+00:00",
       "origin": "listing",
-      "status": "withdrawn"
+      "status": "expired"
     },
     {
       "id": "61fab98d2ebd7a56",
@@ -1764,7 +1764,7 @@
       "source": "UNESCO — offres d’emploi et missions",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "expired"
     },
     {
       "id": "209ad5fb7b8d0d32",
@@ -1781,7 +1781,7 @@
       "source": "UNESCO — offres d’emploi et missions",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "expired"
     },
     {
       "id": "b0e479be9c080f12",
@@ -1798,7 +1798,7 @@
       "source": "UNESCO — offres d’emploi et missions",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "expired"
     },
     {
       "id": "92c45aba0c333291",
@@ -1815,7 +1815,7 @@
       "source": "UNESCO — offres d’emploi et missions",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "expired"
     },
     {
       "id": "73fd95fed62cdd65",
@@ -1832,7 +1832,7 @@
       "source": "Université Aston",
       "checked_at": "2026-11-02T15:28:22.760692+00:00",
       "origin": "listing",
-      "status": "unverified"
+      "status": "expired"
     },
     {
       "id": "0ca5b05c47076b41",
@@ -1849,7 +1849,7 @@
       "source": "Université du Kent",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "expired"
     },
     {
       "id": "a30afbbd5a306206",
@@ -1866,7 +1866,7 @@
       "source": "Université de Southampton",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "expired"
     },
     {
       "id": "617ceabd7e09e861",
@@ -1883,7 +1883,7 @@
       "source": "Université de Southampton",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "expired"
     },
     {
       "id": "c938aee585aa8c77",
@@ -1900,7 +1900,7 @@
       "source": "UNESCO — offres d’emploi et missions",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "expired"
     },
     {
       "id": "950b50844db2b1bd",
@@ -1917,7 +1917,7 @@
       "source": "UNESCO — offres d’emploi et missions",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "expired"
     },
     {
       "id": "b802495d76c8beb5",
@@ -1934,7 +1934,7 @@
       "source": "Université de York",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "expired"
     },
     {
       "id": "9133acf2b18bd86e",
@@ -1951,7 +1951,7 @@
       "source": "UNESCO — offres d’emploi et missions",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "expired"
     },
     {
       "id": "ab732e622279656f",
@@ -1968,7 +1968,7 @@
       "source": "Université de Bath",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "expired"
     },
     {
       "id": "e93834a77faf6736",
@@ -1985,7 +1985,7 @@
       "source": "Université de Southampton",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "expired"
     },
     {
       "id": "4af1e62525efd9c4",
@@ -2002,7 +2002,7 @@
       "source": "Université de Southampton",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "expired"
     },
     {
       "id": "cb48879dbc49d01c",
@@ -2019,7 +2019,7 @@
       "source": "Université de Southampton",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "expired"
     },
     {
       "id": "369bdbf9a9405518",
@@ -2036,7 +2036,7 @@
       "source": "EURAXESS",
       "checked_at": "2026-11-02T15:28:22.760692+00:00",
       "origin": "listing",
-      "status": "withdrawn"
+      "status": "expired"
     },
     {
       "id": "ef37ace2965a6051",
@@ -2053,7 +2053,7 @@
       "source": "UNICEF",
       "checked_at": "2026-10-26T12:42:27.339796+00:00",
       "origin": "listing",
-      "status": "withdrawn"
+      "status": "expired"
     },
     {
       "id": "63b9c803e7e7f969",
@@ -2070,7 +2070,7 @@
       "source": "Université de York",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "expired"
     },
     {
       "id": "55467ba3891d755b",
@@ -2087,7 +2087,7 @@
       "source": "Université de York",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "expired"
     },
     {
       "id": "100291f0dc202f01",
@@ -2104,7 +2104,7 @@
       "source": "Université de Southampton",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "expired"
     },
     {
       "id": "db37d6cfb9f132fc",
@@ -2121,7 +2121,7 @@
       "source": "Université de Southampton",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "expired"
     },
     {
       "id": "5569cb4402db2dfa",
@@ -2138,7 +2138,7 @@
       "source": "Université de York",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "expired"
     },
     {
       "id": "bc1fb5bd1c3fa65e",
@@ -2155,7 +2155,7 @@
       "source": "Université Aston",
       "checked_at": "2026-11-02T15:28:22.760692+00:00",
       "origin": "listing",
-      "status": "unverified"
+      "status": "expired"
     },
     {
       "id": "1e647af4fbc48b20",
@@ -2172,7 +2172,7 @@
       "source": "Université de Southampton",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "expired"
     },
     {
       "id": "3a27e9a5550a52f6",
@@ -2189,7 +2189,7 @@
       "source": "Université de York",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "expired"
     },
     {
       "id": "a16932cb9d2cf070",
@@ -2206,7 +2206,7 @@
       "source": "Université de Southampton",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "expired"
     },
     {
       "id": "872648417fb1de73",
@@ -2223,7 +2223,7 @@
       "source": "EURAXESS",
       "checked_at": "2026-11-02T15:28:22.760692+00:00",
       "origin": "listing",
-      "status": "withdrawn"
+      "status": "expired"
     },
     {
       "id": "a4777f5bea9c0ad3",
@@ -2240,7 +2240,7 @@
       "source": "Université de York",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "expired"
     },
     {
       "id": "060703daf70540aa",
@@ -2257,7 +2257,7 @@
       "source": "Université Aston",
       "checked_at": "2026-11-02T15:28:22.760692+00:00",
       "origin": "listing",
-      "status": "unverified"
+      "status": "expired"
     },
     {
       "id": "0e467fbd3890eaea",
@@ -2274,7 +2274,7 @@
       "source": "UNESCO — offres d’emploi et missions",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "expired"
     },
     {
       "id": "8bfbf87ec35a5e28",
@@ -2291,7 +2291,7 @@
       "source": "UNESCO — offres d’emploi et missions",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "expired"
     },
     {
       "id": "bb830e18f1cc9692",
@@ -2308,7 +2308,7 @@
       "source": "UNESCO — offres d’emploi et missions",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "expired"
     },
     {
       "id": "ce2528b83cc17a42",
@@ -2325,7 +2325,7 @@
       "source": "UNESCO — offres d’emploi et missions",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "expired"
     },
     {
       "id": "feefc1be39949006",
@@ -2342,7 +2342,7 @@
       "source": "UNESCO — offres d’emploi et missions",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "expired"
     },
     {
       "id": "0aacab1d8a373c5a",
@@ -2359,7 +2359,7 @@
       "source": "Université du Kent",
       "checked_at": "2026-11-02T15:28:22.760692+00:00",
       "origin": "listing",
-      "status": "withdrawn"
+      "status": "expired"
     },
     {
       "id": "3882fa63164b63d0",
@@ -2376,7 +2376,7 @@
       "source": "Université de York",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "expired"
     },
     {
       "id": "095793a3805f83da",
@@ -2391,7 +2391,7 @@
       "url": "https://jobs.surrey.ac.uk/rss/click.aspx?ref=052026",
       "source_id": "surrey",
       "source": "Université de Surrey",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -2408,7 +2408,7 @@
       "url": "https://www.bath.ac.uk/jobs/rss/click.aspx?ref=SB13983",
       "source_id": "bath",
       "source": "Université de Bath",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -2461,7 +2461,7 @@
       "source": "UNICEF",
       "checked_at": "2026-11-02T15:28:22.760692+00:00",
       "origin": "listing",
-      "status": "withdrawn"
+      "status": "unverified"
     },
     {
       "id": "9b86ccb7e62a4734",
@@ -2476,7 +2476,7 @@
       "url": "https://www.bath.ac.uk/jobs/rss/click.aspx?ref=ED14021",
       "source_id": "bath",
       "source": "Université de Bath",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -2493,7 +2493,7 @@
       "url": "https://www.bath.ac.uk/jobs/rss/click.aspx?ref=SS13981",
       "source_id": "bath",
       "source": "Université de Bath",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -2510,7 +2510,7 @@
       "url": "https://jobs.surrey.ac.uk/rss/click.aspx?ref=052726",
       "source_id": "surrey",
       "source": "Université de Surrey",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -2527,7 +2527,7 @@
       "url": "https://jobs.soton.ac.uk/rss/click.aspx?ref=3526326DA",
       "source_id": "southampton",
       "source": "Université de Southampton",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -2544,7 +2544,7 @@
       "url": "https://jobs.soton.ac.uk/rss/click.aspx?ref=3526226EB",
       "source_id": "southampton",
       "source": "Université de Southampton",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -2561,7 +2561,7 @@
       "url": "https://jobs.surrey.ac.uk/rss/click.aspx?ref=051826",
       "source_id": "surrey",
       "source": "Université de Surrey",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -2578,7 +2578,7 @@
       "url": "https://jobs.surrey.ac.uk/rss/click.aspx?ref=051926",
       "source_id": "surrey",
       "source": "Université de Surrey",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -2597,7 +2597,7 @@
       "source": "UNICEF",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "unverified"
     },
     {
       "id": "b4c916b935b136c9",
@@ -2612,9 +2612,9 @@
       "url": "https://jobs.aston.ac.uk/rss/click.aspx?ref=1844-26",
       "source_id": "aston",
       "source": "Université Aston",
-      "checked_at": "2026-11-02T15:28:22.760692+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
-      "status": "unverified"
+      "status": "active"
     },
     {
       "id": "189428589c70887d",
@@ -2629,7 +2629,7 @@
       "url": "https://www.bath.ac.uk/jobs/rss/click.aspx?ref=ED13989",
       "source_id": "bath",
       "source": "Université de Bath",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -2646,7 +2646,7 @@
       "url": "https://www.bath.ac.uk/jobs/rss/click.aspx?ref=ED13990",
       "source_id": "bath",
       "source": "Université de Bath",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -2663,7 +2663,7 @@
       "url": "https://www.bath.ac.uk/jobs/rss/click.aspx?ref=ED13991",
       "source_id": "bath",
       "source": "Université de Bath",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -2680,7 +2680,7 @@
       "url": "https://jobs.surrey.ac.uk/rss/click.aspx?ref=048526",
       "source_id": "surrey",
       "source": "Université de Surrey",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -2697,7 +2697,7 @@
       "url": "https://careers.unesco.org/job/Paris-Middle-level-Consultant-on-Education/1376471957/",
       "source_id": "unesco-jobs",
       "source": "UNESCO — offres d’emploi et missions",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -2714,7 +2714,7 @@
       "url": "https://www.bath.ac.uk/jobs/rss/click.aspx?ref=CC14069",
       "source_id": "bath",
       "source": "Université de Bath",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -2731,7 +2731,7 @@
       "url": "https://jobs.york.ac.uk/vacancy/student-recruitment-coordinator-621639.html",
       "source_id": "york",
       "source": "Université de York",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -2748,9 +2748,9 @@
       "url": "https://jobs.aston.ac.uk/rss/click.aspx?ref=1255-26",
       "source_id": "aston",
       "source": "Université Aston",
-      "checked_at": "2026-11-02T15:28:22.760692+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
-      "status": "unverified"
+      "status": "active"
     },
     {
       "id": "b030ac811edff440",
@@ -2765,7 +2765,24 @@
       "url": "https://careers.unesco.org/job/Amman-Associate-National-Project-Officer-TVET-%28Education%29/1376663657/",
       "source_id": "unesco-jobs",
       "source": "UNESCO — offres d’emploi et missions",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
+    },
+    {
+      "id": "b790f3c7cbfed4ac",
+      "title": "Clinical Senior Lecturer (1716-26)",
+      "organization": "Université Aston",
+      "location": "Lieu à vérifier sur la source",
+      "country": "À vérifier sur la source",
+      "contract": "À préciser sur la source",
+      "grade": "",
+      "category": "emploi",
+      "deadline": "2026-11-18",
+      "url": "https://jobs.aston.ac.uk/rss/click.aspx?ref=1716-26",
+      "source_id": "aston",
+      "source": "Université Aston",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -2784,7 +2801,7 @@
       "source": "UNICEF",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "unverified"
     },
     {
       "id": "f8cb48e8bc872f20",
@@ -2799,7 +2816,7 @@
       "url": "https://www.bath.ac.uk/jobs/rss/click.aspx?ref=ED14020",
       "source_id": "bath",
       "source": "Université de Bath",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -2816,7 +2833,7 @@
       "url": "https://jobs.surrey.ac.uk/rss/click.aspx?ref=053726",
       "source_id": "surrey",
       "source": "Université de Surrey",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -2833,7 +2850,7 @@
       "url": "https://jobs.soton.ac.uk/rss/click.aspx?ref=3535326AF",
       "source_id": "southampton",
       "source": "Université de Southampton",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -2850,7 +2867,7 @@
       "url": "https://jobs.surrey.ac.uk/rss/click.aspx?ref=052126",
       "source_id": "surrey",
       "source": "Université de Surrey",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -2867,7 +2884,24 @@
       "url": "https://jobs.york.ac.uk/vacancy/student-services-administrator-maternity-cover-622030.html",
       "source_id": "york",
       "source": "Université de York",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
+    },
+    {
+      "id": "4ff258ab6738129d",
+      "title": "Working Group and Research Coordinator",
+      "organization": "UNESCO",
+      "location": "Khartoum, Sudan",
+      "country": "Sudan",
+      "contract": "Consultant Contract",
+      "grade": "Level 2 - Middle",
+      "category": "consultance",
+      "deadline": "2026-11-18",
+      "url": "https://careers.unesco.org/job/Khartoum-Working-Group-and-Research-Coordinator/1377252457/",
+      "source_id": "unesco-jobs",
+      "source": "UNESCO — offres d’emploi et missions",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -2884,7 +2918,7 @@
       "url": "https://jobs.york.ac.uk/vacancy/associate-lecturer-in-social-and-public-policy-maternity-leave-cover-622092.html",
       "source_id": "york",
       "source": "Université de York",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -2901,24 +2935,41 @@
       "url": "https://jobs.york.ac.uk/vacancy/movember-institute-of-mens-health-discovery-research-fellow-619446.html",
       "source_id": "york",
       "source": "Université de York",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
     {
-      "id": "e4aecc01f5d85fd9",
-      "title": "Research Associate (ED14065)",
-      "organization": "Université de Bath",
+      "id": "24f7fa78f5a3e4d5",
+      "title": "National Consultant- Teacher Education and Development",
+      "organization": "UNESCO",
+      "location": "Baghdad, Iraq",
+      "country": "Iraq",
+      "contract": "Consultant Contract",
+      "grade": "Level 2 - Middle",
+      "category": "consultance",
+      "deadline": "2026-11-19",
+      "url": "https://careers.unesco.org/job/Baghdad-National-Consultant-Teacher-Education-and-Development/1377335557/",
+      "source_id": "unesco-jobs",
+      "source": "UNESCO — offres d’emploi et missions",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
+    },
+    {
+      "id": "2df72a44d2602250",
+      "title": "Research Fellow in AI Engineering and Commercialisation (3545726LG)",
+      "organization": "Université de Southampton",
       "location": "Lieu à vérifier sur la source",
       "country": "À vérifier sur la source",
       "contract": "À préciser sur la source",
       "grade": "",
       "category": "emploi",
       "deadline": "2026-11-20",
-      "url": "https://www.bath.ac.uk/jobs/rss/click.aspx?ref=ED14065",
-      "source_id": "bath",
-      "source": "Université de Bath",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "url": "https://jobs.soton.ac.uk/rss/click.aspx?ref=3545726LG",
+      "source_id": "southampton",
+      "source": "Université de Southampton",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -2952,7 +3003,7 @@
       "url": "https://jobs.york.ac.uk/vacancy/movember-research-chair-reader-in-mens-health-609869.html",
       "source_id": "york",
       "source": "Université de York",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -2969,7 +3020,7 @@
       "url": "https://jobs.york.ac.uk/vacancy/senior-lecturer-in-public-health-nutrition-620463.html",
       "source_id": "york",
       "source": "Université de York",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -2986,7 +3037,7 @@
       "url": "https://jobs.surrey.ac.uk/rss/click.aspx?ref=050726",
       "source_id": "surrey",
       "source": "Université de Surrey",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -3005,7 +3056,7 @@
       "source": "EURAXESS",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "withdrawn"
     },
     {
       "id": "c2c7aa258ee953d7",
@@ -3022,6 +3073,40 @@
       "source": "EURAXESS",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
+      "status": "withdrawn"
+    },
+    {
+      "id": "465f386c63088643",
+      "title": "Assoc Dean - Apprenticeships & Skills (1858-26)",
+      "organization": "Université Aston",
+      "location": "Lieu à vérifier sur la source",
+      "country": "À vérifier sur la source",
+      "contract": "À préciser sur la source",
+      "grade": "",
+      "category": "emploi",
+      "deadline": "2026-11-23",
+      "url": "https://jobs.aston.ac.uk/rss/click.aspx?ref=1858-26",
+      "source_id": "aston",
+      "source": "Université Aston",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
+    },
+    {
+      "id": "8b53d7ce54f718b8",
+      "title": "Consultant Contract (Monitoring of UNESCO Recommendation on Science and Scientific Researchers)",
+      "organization": "UNESCO",
+      "location": "Paris, France",
+      "country": "France",
+      "contract": "Consultant Contract",
+      "grade": "Level 2 - Middle",
+      "category": "consultance",
+      "deadline": "2026-11-23",
+      "url": "https://careers.unesco.org/job/Paris-Consultant-Contract-%28Monitoring-of-UNESCO-Recommendation-on-Science-and-Scientific-Researchers%29/1377134557/",
+      "source_id": "unesco-jobs",
+      "source": "UNESCO — offres d’emploi et missions",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
       "status": "active"
     },
     {
@@ -3037,7 +3122,7 @@
       "url": "https://careers.unesco.org/job/Paris-Consultant-on-Out-of-School-Children-and-Youth-Rights-Based-Research-and-Policy-Analysis/1377040357/",
       "source_id": "unesco-jobs",
       "source": "UNESCO — offres d’emploi et missions",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -3054,7 +3139,7 @@
       "url": "https://jobs.surrey.ac.uk/rss/click.aspx?ref=053126",
       "source_id": "surrey",
       "source": "Université de Surrey",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -3073,7 +3158,7 @@
       "source": "UNICEF",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "unverified"
     },
     {
       "id": "9a378f791919df71",
@@ -3089,6 +3174,23 @@
       "source_id": "unicef",
       "source": "UNICEF",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "origin": "listing",
+      "status": "unverified"
+    },
+    {
+      "id": "9c410692eb1e7fa7",
+      "title": "Qualitative Research Associate: PHIRST REACH (Maternity Cover) 15483",
+      "organization": "Université de York",
+      "location": "Lieu à vérifier sur la source",
+      "country": "À vérifier sur la source",
+      "contract": "À préciser sur la source",
+      "grade": "",
+      "category": "emploi",
+      "deadline": "2026-11-23",
+      "url": "https://jobs.york.ac.uk/vacancy/qualitative-research-associate-phirst-reach-maternity-cover-622581.html",
+      "source_id": "york",
+      "source": "Université de York",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -3107,7 +3209,7 @@
       "source": "Université de York",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "withdrawn"
     },
     {
       "id": "f4325bc8f849f108",
@@ -3122,7 +3224,24 @@
       "url": "https://jobs.surrey.ac.uk/rss/click.aspx?ref=053026",
       "source_id": "surrey",
       "source": "Université de Surrey",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
+    },
+    {
+      "id": "c11e7945fcc26a8d",
+      "title": "Research Community Manager (Deaf Communities) (054426)",
+      "organization": "Université de Surrey",
+      "location": "Lieu à vérifier sur la source",
+      "country": "À vérifier sur la source",
+      "contract": "À préciser sur la source",
+      "grade": "",
+      "category": "emploi",
+      "deadline": "2026-11-23",
+      "url": "https://jobs.surrey.ac.uk/rss/click.aspx?ref=054426",
+      "source_id": "surrey",
+      "source": "Université de Surrey",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -3139,7 +3258,7 @@
       "url": "https://jobs.soton.ac.uk/rss/click.aspx?ref=3538526CF",
       "source_id": "southampton",
       "source": "Université de Southampton",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -3156,7 +3275,7 @@
       "url": "https://jobs.surrey.ac.uk/rss/click.aspx?ref=052926",
       "source_id": "surrey",
       "source": "Université de Surrey",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -3175,7 +3294,7 @@
       "source": "EURAXESS",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "withdrawn"
     },
     {
       "id": "28d29db90bed6dea",
@@ -3190,7 +3309,75 @@
       "url": "https://jobs.york.ac.uk/vacancy/research-technician-622586.html",
       "source_id": "york",
       "source": "Université de York",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
+    },
+    {
+      "id": "82c6e5cdaa007927",
+      "title": "Associate Director, Education Partnerships, Quality and Governance (054626)",
+      "organization": "Université de Surrey",
+      "location": "Lieu à vérifier sur la source",
+      "country": "À vérifier sur la source",
+      "contract": "À préciser sur la source",
+      "grade": "",
+      "category": "emploi",
+      "deadline": "2026-11-24",
+      "url": "https://jobs.surrey.ac.uk/rss/click.aspx?ref=054626",
+      "source_id": "surrey",
+      "source": "Université de Surrey",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
+    },
+    {
+      "id": "b2f07232cf780f1f",
+      "title": "Lecturer in Space and Planetary Science (EMP-014-26)",
+      "organization": "Université du Kent",
+      "location": "Lieu à vérifier sur la source",
+      "country": "À vérifier sur la source",
+      "contract": "À préciser sur la source",
+      "grade": "",
+      "category": "emploi",
+      "deadline": "2026-11-24",
+      "url": "https://jobs.kent.ac.uk/rss/click.aspx?ref=EMP-014-26",
+      "source_id": "kent",
+      "source": "Université du Kent",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
+    },
+    {
+      "id": "559468a5ec57c334",
+      "title": "Development of machine learning techniques for electronic power converters (octubre extra 11)",
+      "organization": "UNIOVI",
+      "location": "Lieu à vérifier sur la source",
+      "country": "À vérifier sur la source",
+      "contract": "À préciser sur la source",
+      "grade": "",
+      "category": "emploi",
+      "deadline": "2026-11-25",
+      "url": "https://euraxess.ec.europa.eu/jobs/480714",
+      "source_id": "euraxess",
+      "source": "EURAXESS",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
+    },
+    {
+      "id": "9bd552c7850315fb",
+      "title": "Lecturer in Cybersecurity Management (R260051)",
+      "organization": "Université Aston",
+      "location": "Lieu à vérifier sur la source",
+      "country": "À vérifier sur la source",
+      "contract": "À préciser sur la source",
+      "grade": "",
+      "category": "emploi",
+      "deadline": "2026-11-25",
+      "url": "https://jobs.aston.ac.uk/rss/click.aspx?ref=R260051",
+      "source_id": "aston",
+      "source": "Université Aston",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -3207,7 +3394,7 @@
       "url": "https://jobs.soton.ac.uk/rss/click.aspx?ref=3542326WR",
       "source_id": "southampton",
       "source": "Université de Southampton",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -3224,7 +3411,7 @@
       "url": "https://jobs.soton.ac.uk/rss/click.aspx?ref=3541826DA",
       "source_id": "southampton",
       "source": "Université de Southampton",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -3241,7 +3428,7 @@
       "url": "https://jobs.surrey.ac.uk/rss/click.aspx?ref=053526",
       "source_id": "surrey",
       "source": "Université de Surrey",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -3275,7 +3462,7 @@
       "url": "https://www.bath.ac.uk/jobs/rss/click.aspx?ref=SS14070",
       "source_id": "bath",
       "source": "Université de Bath",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -3309,7 +3496,7 @@
       "url": "https://www.bath.ac.uk/jobs/rss/click.aspx?ref=SS13987",
       "source_id": "bath",
       "source": "Université de Bath",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -3326,7 +3513,7 @@
       "url": "https://jobs.surrey.ac.uk/rss/click.aspx?ref=053826",
       "source_id": "surrey",
       "source": "Université de Surrey",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -3343,7 +3530,7 @@
       "url": "https://jobs.surrey.ac.uk/rss/click.aspx?ref=054026",
       "source_id": "surrey",
       "source": "Université de Surrey",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -3360,7 +3547,7 @@
       "url": "https://jobs.surrey.ac.uk/rss/click.aspx?ref=053926",
       "source_id": "surrey",
       "source": "Université de Surrey",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -3377,7 +3564,24 @@
       "url": "https://www.bath.ac.uk/jobs/rss/click.aspx?ref=SS14039",
       "source_id": "bath",
       "source": "Université de Bath",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
+    },
+    {
+      "id": "e4aecc01f5d85fd9",
+      "title": "Research Associate (ED14065)",
+      "organization": "Université de Bath",
+      "location": "Lieu à vérifier sur la source",
+      "country": "À vérifier sur la source",
+      "contract": "À préciser sur la source",
+      "grade": "",
+      "category": "emploi",
+      "deadline": "2026-11-29",
+      "url": "https://www.bath.ac.uk/jobs/rss/click.aspx?ref=ED14065",
+      "source_id": "bath",
+      "source": "Université de Bath",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -3394,7 +3598,24 @@
       "url": "https://jobs.surrey.ac.uk/rss/click.aspx?ref=053426",
       "source_id": "surrey",
       "source": "Université de Surrey",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
+    },
+    {
+      "id": "8ed4eff451cbb279",
+      "title": "International Student Recruitment Manager (CC14081)",
+      "organization": "Université de Bath",
+      "location": "Lieu à vérifier sur la source",
+      "country": "À vérifier sur la source",
+      "contract": "À préciser sur la source",
+      "grade": "",
+      "category": "emploi",
+      "deadline": "2026-11-30",
+      "url": "https://www.bath.ac.uk/jobs/rss/click.aspx?ref=CC14081",
+      "source_id": "bath",
+      "source": "Université de Bath",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -3411,7 +3632,24 @@
       "url": "https://www.bath.ac.uk/jobs/rss/click.aspx?ref=KD14072",
       "source_id": "bath",
       "source": "Université de Bath",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
+    },
+    {
+      "id": "f677393274c90301",
+      "title": "Lecturer in Mechanical Engineering (EMP-015-26)",
+      "organization": "Université du Kent",
+      "location": "Lieu à vérifier sur la source",
+      "country": "À vérifier sur la source",
+      "contract": "À préciser sur la source",
+      "grade": "",
+      "category": "emploi",
+      "deadline": "2026-11-30",
+      "url": "https://jobs.kent.ac.uk/rss/click.aspx?ref=EMP-015-26",
+      "source_id": "kent",
+      "source": "Université du Kent",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -3430,7 +3668,7 @@
       "source": "EURAXESS",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "withdrawn"
     },
     {
       "id": "d9647496432e5800",
@@ -3445,7 +3683,24 @@
       "url": "https://jobs.surrey.ac.uk/rss/click.aspx?ref=049426",
       "source_id": "surrey",
       "source": "Université de Surrey",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
+    },
+    {
+      "id": "1db2dad549d96803",
+      "title": "Recrutement d'un.e Consultant(e) internationale(e) expert.e Genre et Ressources éducatives.",
+      "organization": "UNESCO",
+      "location": "Dakar, Senegal",
+      "country": "Senegal",
+      "contract": "Consultant",
+      "grade": "Level 3 - Senior",
+      "category": "consultance",
+      "deadline": "2026-11-30",
+      "url": "https://careers.unesco.org/job/Dakar-Recrutement-d'un_e-Consultant%28e%29-internationale%28e%29-expert_e-Genre-et-Ressources-%C3%A9ducatives_/1377148057/",
+      "source_id": "unesco-jobs",
+      "source": "UNESCO — offres d’emploi et missions",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -3462,9 +3717,43 @@
       "url": "https://jobs.aston.ac.uk/rss/click.aspx?ref=1829-26",
       "source_id": "aston",
       "source": "Université Aston",
-      "checked_at": "2026-11-02T15:28:22.760692+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
-      "status": "unverified"
+      "status": "active"
+    },
+    {
+      "id": "4c798d94b8c14ebe",
+      "title": "Research Culture Project Manager (3553626LL)",
+      "organization": "Université de Southampton",
+      "location": "Lieu à vérifier sur la source",
+      "country": "À vérifier sur la source",
+      "contract": "À préciser sur la source",
+      "grade": "",
+      "category": "emploi",
+      "deadline": "2026-11-30",
+      "url": "https://jobs.soton.ac.uk/rss/click.aspx?ref=3553626LL",
+      "source_id": "southampton",
+      "source": "Université de Southampton",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
+    },
+    {
+      "id": "22ed6ae029df4dfb",
+      "title": "Research Fellow in Evidence Synthesis (3550226VB)",
+      "organization": "Université de Southampton",
+      "location": "Lieu à vérifier sur la source",
+      "country": "À vérifier sur la source",
+      "contract": "À préciser sur la source",
+      "grade": "",
+      "category": "emploi",
+      "deadline": "2026-11-30",
+      "url": "https://jobs.soton.ac.uk/rss/click.aspx?ref=3550226VB",
+      "source_id": "southampton",
+      "source": "Université de Southampton",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
     },
     {
       "id": "0bb28992e335a29d",
@@ -3479,7 +3768,7 @@
       "url": "https://jobs.soton.ac.uk/rss/click.aspx?ref=3549526BA",
       "source_id": "southampton",
       "source": "Université de Southampton",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -3496,7 +3785,58 @@
       "url": "https://jobs.surrey.ac.uk/rss/click.aspx?ref=051026",
       "source_id": "surrey",
       "source": "Université de Surrey",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
+    },
+    {
+      "id": "86806a3caf0bc436",
+      "title": "Research Scholarship (BI)",
+      "organization": "Universidade Politécnica de Coimbra",
+      "location": "Lieu à vérifier sur la source",
+      "country": "À vérifier sur la source",
+      "contract": "À préciser sur la source",
+      "grade": "",
+      "category": "emploi",
+      "deadline": "2026-11-30",
+      "url": "https://euraxess.ec.europa.eu/jobs/480720",
+      "source_id": "euraxess",
+      "source": "EURAXESS",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
+    },
+    {
+      "id": "3d64dbade094f567",
+      "title": "Research Scholarship_BIO-K – BI_1",
+      "organization": "Universidade Católica Portuguesa - Porto",
+      "location": "Lieu à vérifier sur la source",
+      "country": "À vérifier sur la source",
+      "contract": "À préciser sur la source",
+      "grade": "",
+      "category": "emploi",
+      "deadline": "2026-11-30",
+      "url": "https://euraxess.ec.europa.eu/jobs/480721",
+      "source_id": "euraxess",
+      "source": "EURAXESS",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
+    },
+    {
+      "id": "bab6e5acbd47368c",
+      "title": "Research Scholarship_REGENSMART+_ BI_1",
+      "organization": "Universidade Católica Portuguesa - Porto",
+      "location": "Lieu à vérifier sur la source",
+      "country": "À vérifier sur la source",
+      "contract": "À préciser sur la source",
+      "grade": "",
+      "category": "emploi",
+      "deadline": "2026-11-30",
+      "url": "https://euraxess.ec.europa.eu/jobs/480722",
+      "source_id": "euraxess",
+      "source": "EURAXESS",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -3515,7 +3855,7 @@
       "source": "EURAXESS",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "withdrawn"
     },
     {
       "id": "3f676ac8aa358606",
@@ -3530,9 +3870,43 @@
       "url": "https://jobs.aston.ac.uk/rss/click.aspx?ref=1224-26",
       "source_id": "aston",
       "source": "Université Aston",
-      "checked_at": "2026-11-02T15:28:22.760692+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
-      "status": "unverified"
+      "status": "active"
+    },
+    {
+      "id": "044ecf5874862040",
+      "title": "Research Fellow in Psychology (054926)",
+      "organization": "Université de Surrey",
+      "location": "Lieu à vérifier sur la source",
+      "country": "À vérifier sur la source",
+      "contract": "À préciser sur la source",
+      "grade": "",
+      "category": "emploi",
+      "deadline": "2026-12-01",
+      "url": "https://jobs.surrey.ac.uk/rss/click.aspx?ref=054926",
+      "source_id": "surrey",
+      "source": "Université de Surrey",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
+    },
+    {
+      "id": "ac0f358a244e9e35",
+      "title": "1 (one) Research Fellowship (BI) for a BSc enrolled in a non-degree course #5425",
+      "organization": "FCiências.ID",
+      "location": "Lieu à vérifier sur la source",
+      "country": "À vérifier sur la source",
+      "contract": "À préciser sur la source",
+      "grade": "",
+      "category": "emploi",
+      "deadline": "2026-12-02",
+      "url": "https://euraxess.ec.europa.eu/jobs/480725",
+      "source_id": "euraxess",
+      "source": "EURAXESS",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
     },
     {
       "id": "34bdd06f0dbcc3db",
@@ -3552,19 +3926,36 @@
       "status": "withdrawn"
     },
     {
-      "id": "2df72a44d2602250",
-      "title": "Research Fellow in AI Engineering and Commercialisation (3545726LG)",
-      "organization": "Université de Southampton",
+      "id": "c1c75d6e7915cba8",
+      "title": "Lecturer in Bioveterinary Sciences (056126)",
+      "organization": "Université de Surrey",
       "location": "Lieu à vérifier sur la source",
       "country": "À vérifier sur la source",
       "contract": "À préciser sur la source",
       "grade": "",
       "category": "emploi",
       "deadline": "2026-12-02",
-      "url": "https://jobs.soton.ac.uk/rss/click.aspx?ref=3545726LG",
-      "source_id": "southampton",
-      "source": "Université de Southampton",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "url": "https://jobs.surrey.ac.uk/rss/click.aspx?ref=056126",
+      "source_id": "surrey",
+      "source": "Université de Surrey",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
+    },
+    {
+      "id": "0b5f4d8ef2be5cf2",
+      "title": "University teacher at the position of associate professor (m/f)",
+      "organization": "University of Zilina",
+      "location": "Lieu à vérifier sur la source",
+      "country": "À vérifier sur la source",
+      "contract": "À préciser sur la source",
+      "grade": "",
+      "category": "emploi",
+      "deadline": "2026-12-02",
+      "url": "https://euraxess.ec.europa.eu/jobs/480719",
+      "source_id": "euraxess",
+      "source": "EURAXESS",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -3581,7 +3972,24 @@
       "url": "https://jobs.soton.ac.uk/rss/click.aspx?ref=3547126AF",
       "source_id": "southampton",
       "source": "Université de Southampton",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
+    },
+    {
+      "id": "753041e4339b29a4",
+      "title": "Head of Open Research and Innovation (055626)",
+      "organization": "Université de Surrey",
+      "location": "Lieu à vérifier sur la source",
+      "country": "À vérifier sur la source",
+      "contract": "À préciser sur la source",
+      "grade": "",
+      "category": "emploi",
+      "deadline": "2026-12-04",
+      "url": "https://jobs.surrey.ac.uk/rss/click.aspx?ref=055626",
+      "source_id": "surrey",
+      "source": "Université de Surrey",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -3598,9 +4006,9 @@
       "url": "https://jobs.aston.ac.uk/rss/click.aspx?ref=1775-26",
       "source_id": "aston",
       "source": "Université Aston",
-      "checked_at": "2026-11-02T15:28:22.760692+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
-      "status": "unverified"
+      "status": "active"
     },
     {
       "id": "b05002c5796772da",
@@ -3617,7 +4025,7 @@
       "source": "EURAXESS",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
-      "status": "active"
+      "status": "withdrawn"
     },
     {
       "id": "e1a4606133106b39",
@@ -3632,7 +4040,7 @@
       "url": "https://www.bath.ac.uk/jobs/rss/click.aspx?ref=SB14077",
       "source_id": "bath",
       "source": "Université de Bath",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -3649,7 +4057,7 @@
       "url": "https://jobs.soton.ac.uk/rss/click.aspx?ref=3547626AF",
       "source_id": "southampton",
       "source": "Université de Southampton",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -3666,7 +4074,58 @@
       "url": "https://jobs.soton.ac.uk/rss/click.aspx?ref=3547526BT",
       "source_id": "southampton",
       "source": "Université de Southampton",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
+    },
+    {
+      "id": "a4dd624d5ee0412b",
+      "title": "EU Research Coordinator 15466",
+      "organization": "Université de York",
+      "location": "Lieu à vérifier sur la source",
+      "country": "À vérifier sur la source",
+      "contract": "À préciser sur la source",
+      "grade": "",
+      "category": "emploi",
+      "deadline": "2026-12-06",
+      "url": "https://jobs.york.ac.uk/vacancy/eu-research-coordinator-622171.html",
+      "source_id": "york",
+      "source": "Université de York",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
+    },
+    {
+      "id": "6a01449d0266517c",
+      "title": "Postdoctoral Researcher at the Targeted Therapeutics & Nanodevices Research Group",
+      "organization": "Institute for bioengineering of Catalonia, IBEC",
+      "location": "Lieu à vérifier sur la source",
+      "country": "À vérifier sur la source",
+      "contract": "À préciser sur la source",
+      "grade": "",
+      "category": "emploi",
+      "deadline": "2026-12-06",
+      "url": "https://euraxess.ec.europa.eu/jobs/480723",
+      "source_id": "euraxess",
+      "source": "EURAXESS",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
+    },
+    {
+      "id": "209c75a498dcdf28",
+      "title": "Research Catalyst Fellow, Centre for Translation Studies (054326)",
+      "organization": "Université de Surrey",
+      "location": "Lieu à vérifier sur la source",
+      "country": "À vérifier sur la source",
+      "contract": "À préciser sur la source",
+      "grade": "",
+      "category": "emploi",
+      "deadline": "2026-12-06",
+      "url": "https://jobs.surrey.ac.uk/rss/click.aspx?ref=054326",
+      "source_id": "surrey",
+      "source": "Université de Surrey",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -3683,13 +4142,30 @@
       "url": "https://www.bath.ac.uk/jobs/rss/click.aspx?ref=SS13993",
       "source_id": "bath",
       "source": "Université de Bath",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
+    },
+    {
+      "id": "1839b2113c18c8e5",
+      "title": "Lecturer in Public Health Nutrition (maternity cover) 15471",
+      "organization": "Université de York",
+      "location": "Lieu à vérifier sur la source",
+      "country": "À vérifier sur la source",
+      "contract": "À préciser sur la source",
+      "grade": "",
+      "category": "emploi",
+      "deadline": "2026-12-07",
+      "url": "https://jobs.york.ac.uk/vacancy/lecturer-in-public-health-nutrition-maternity-cover-622286.html",
+      "source_id": "york",
+      "source": "Université de York",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
     {
       "id": "53b490f23e0e960f",
-      "title": "Research Fellow – Ferroelectric Devices with 2D Semiconductors (3550026FP)",
+      "title": "Research Fellow – 2D Ferroelectric Devices (3550026FP)",
       "organization": "Université de Southampton",
       "location": "Lieu à vérifier sur la source",
       "country": "À vérifier sur la source",
@@ -3700,7 +4176,7 @@
       "url": "https://jobs.soton.ac.uk/rss/click.aspx?ref=3550026FP",
       "source_id": "southampton",
       "source": "Université de Southampton",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -3717,7 +4193,7 @@
       "url": "https://jobs.york.ac.uk/vacancy/research-associate-in-immunology-621197.html",
       "source_id": "york",
       "source": "Université de York",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -3734,7 +4210,24 @@
       "url": "https://jobs.soton.ac.uk/rss/click.aspx?ref=3545826BJ",
       "source_id": "southampton",
       "source": "Université de Southampton",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
+    },
+    {
+      "id": "b82a9f7b5eb79cf8",
+      "title": "Research Fellow in Global Marine Ecosystem Modelling (3551126HN)",
+      "organization": "Université de Southampton",
+      "location": "Lieu à vérifier sur la source",
+      "country": "À vérifier sur la source",
+      "contract": "À préciser sur la source",
+      "grade": "",
+      "category": "emploi",
+      "deadline": "2026-12-09",
+      "url": "https://jobs.soton.ac.uk/rss/click.aspx?ref=3551126HN",
+      "source_id": "southampton",
+      "source": "Université de Southampton",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -3753,6 +4246,74 @@
       "source": "EURAXESS",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
+      "status": "withdrawn"
+    },
+    {
+      "id": "d4fed1834f2e79a6",
+      "title": "Head of Section / Senior Research Scientist (Earth System Physics)",
+      "organization": "UNESCO",
+      "location": "Trieste, Italy",
+      "country": "Italy",
+      "contract": "Professional",
+      "grade": "P-5",
+      "category": "emploi",
+      "deadline": "2026-12-10",
+      "url": "https://careers.unesco.org/job/Trieste-Head-of-Section-Senior-Research-Scientist-%28Earth-System-Physics%29/1377174757/",
+      "source_id": "unesco-jobs",
+      "source": "UNESCO — offres d’emploi et missions",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
+    },
+    {
+      "id": "3f2a11479d7fa0db",
+      "title": "Programme Specialist (Education)",
+      "organization": "UNESCO",
+      "location": "New Delhi, India",
+      "country": "India",
+      "contract": "Professional",
+      "grade": "P-4",
+      "category": "emploi",
+      "deadline": "2026-12-10",
+      "url": "https://careers.unesco.org/job/New-Delhi-Programme-Specialist-%28Education%29/1377184157/",
+      "source_id": "unesco-jobs",
+      "source": "UNESCO — offres d’emploi et missions",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
+    },
+    {
+      "id": "44def266a505448a",
+      "title": "Research Fellow in Computational Biology (3470226BJ-R)",
+      "organization": "Université de Southampton",
+      "location": "Lieu à vérifier sur la source",
+      "country": "À vérifier sur la source",
+      "contract": "À préciser sur la source",
+      "grade": "",
+      "category": "emploi",
+      "deadline": "2026-12-10",
+      "url": "https://jobs.soton.ac.uk/rss/click.aspx?ref=3470226BJ-R",
+      "source_id": "southampton",
+      "source": "Université de Southampton",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
+    },
+    {
+      "id": "6dbd51d2c72d4d95",
+      "title": "Research Associate (ED14082)",
+      "organization": "Université de Bath",
+      "location": "Lieu à vérifier sur la source",
+      "country": "À vérifier sur la source",
+      "contract": "À préciser sur la source",
+      "grade": "",
+      "category": "emploi",
+      "deadline": "2026-12-11",
+      "url": "https://www.bath.ac.uk/jobs/rss/click.aspx?ref=ED14082",
+      "source_id": "bath",
+      "source": "Université de Bath",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
       "status": "active"
     },
     {
@@ -3768,7 +4329,58 @@
       "url": "https://www.bath.ac.uk/jobs/rss/click.aspx?ref=CC14064",
       "source_id": "bath",
       "source": "Université de Bath",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
+    },
+    {
+      "id": "afea205db984ec53",
+      "title": "Professor (1773-26)",
+      "organization": "Université Aston",
+      "location": "Lieu à vérifier sur la source",
+      "country": "À vérifier sur la source",
+      "contract": "À préciser sur la source",
+      "grade": "",
+      "category": "emploi",
+      "deadline": "2026-12-14",
+      "url": "https://jobs.aston.ac.uk/rss/click.aspx?ref=1773-26",
+      "source_id": "aston",
+      "source": "Université Aston",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
+    },
+    {
+      "id": "d2e43fb86760067e",
+      "title": "Research Associate (1777-26)",
+      "organization": "Université Aston",
+      "location": "Lieu à vérifier sur la source",
+      "country": "À vérifier sur la source",
+      "contract": "À préciser sur la source",
+      "grade": "",
+      "category": "emploi",
+      "deadline": "2026-12-14",
+      "url": "https://jobs.aston.ac.uk/rss/click.aspx?ref=1777-26",
+      "source_id": "aston",
+      "source": "Université Aston",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
+    },
+    {
+      "id": "aa39b45566ef093e",
+      "title": "Senior Research Design Advisor (3550726LG)",
+      "organization": "Université de Southampton",
+      "location": "Lieu à vérifier sur la source",
+      "country": "À vérifier sur la source",
+      "contract": "À préciser sur la source",
+      "grade": "",
+      "category": "emploi",
+      "deadline": "2026-12-14",
+      "url": "https://jobs.soton.ac.uk/rss/click.aspx?ref=3550726LG",
+      "source_id": "southampton",
+      "source": "Université de Southampton",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -3787,6 +4399,23 @@
       "source": "EURAXESS",
       "checked_at": "2026-11-09T15:54:31.087571+00:00",
       "origin": "listing",
+      "status": "withdrawn"
+    },
+    {
+      "id": "6a494d53d14df3ac",
+      "title": "Postdoctoral researcher in \"Composite Artificial Intelligence for the Design of All-Optical Processors\"",
+      "organization": "Université Bourgogne Europe",
+      "location": "Lieu à vérifier sur la source",
+      "country": "À vérifier sur la source",
+      "contract": "À préciser sur la source",
+      "grade": "",
+      "category": "emploi",
+      "deadline": "2026-12-15",
+      "url": "https://euraxess.ec.europa.eu/jobs/480711",
+      "source_id": "euraxess",
+      "source": "EURAXESS",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
       "status": "active"
     },
     {
@@ -3802,7 +4431,58 @@
       "url": "https://www.bath.ac.uk/jobs/rss/click.aspx?ref=SS14044",
       "source_id": "bath",
       "source": "Université de Bath",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
+    },
+    {
+      "id": "633cdc73793492fd",
+      "title": "Research Fellow in Polar Oceanography (3550926HN)",
+      "organization": "Université de Southampton",
+      "location": "Lieu à vérifier sur la source",
+      "country": "À vérifier sur la source",
+      "contract": "À préciser sur la source",
+      "grade": "",
+      "category": "emploi",
+      "deadline": "2026-12-16",
+      "url": "https://jobs.soton.ac.uk/rss/click.aspx?ref=3550926HN",
+      "source_id": "southampton",
+      "source": "Université de Southampton",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
+    },
+    {
+      "id": "2323cbc2a20921a5",
+      "title": "Research Fellow A / B in Advanced Signal Processing for Future Communications Systems (055826)",
+      "organization": "Université de Surrey",
+      "location": "Lieu à vérifier sur la source",
+      "country": "À vérifier sur la source",
+      "contract": "À préciser sur la source",
+      "grade": "",
+      "category": "emploi",
+      "deadline": "2026-12-21",
+      "url": "https://jobs.surrey.ac.uk/rss/click.aspx?ref=055826",
+      "source_id": "surrey",
+      "source": "Université de Surrey",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
+    },
+    {
+      "id": "f1719633824bf9a2",
+      "title": "Research Fellow A / B in Neuromorphic and Quantum-Inspired Computing: Foundations and Applications in Wireless Communications (055726)",
+      "organization": "Université de Surrey",
+      "location": "Lieu à vérifier sur la source",
+      "country": "À vérifier sur la source",
+      "contract": "À préciser sur la source",
+      "grade": "",
+      "category": "emploi",
+      "deadline": "2026-12-21",
+      "url": "https://jobs.surrey.ac.uk/rss/click.aspx?ref=055726",
+      "source_id": "surrey",
+      "source": "Université de Surrey",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     },
@@ -3819,7 +4499,24 @@
       "url": "https://careers.unesco.org/job/Multiple-INTERNSHIP-Education-Sector/1347773857/",
       "source_id": "unesco-internships",
       "source": "UNESCO — stages",
-      "checked_at": "2026-11-09T15:54:31.087571+00:00",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
+      "origin": "listing",
+      "status": "active"
+    },
+    {
+      "id": "2de7e58538cc6dff",
+      "title": "Postdoctoral Research Assistant (1902-26)",
+      "organization": "Université Aston",
+      "location": "Lieu à vérifier sur la source",
+      "country": "À vérifier sur la source",
+      "contract": "À préciser sur la source",
+      "grade": "",
+      "category": "emploi",
+      "deadline": "2027-01-11",
+      "url": "https://jobs.aston.ac.uk/rss/click.aspx?ref=1902-26",
+      "source_id": "aston",
+      "source": "Université Aston",
+      "checked_at": "2026-11-16T15:29:37.761964+00:00",
       "origin": "listing",
       "status": "active"
     }
